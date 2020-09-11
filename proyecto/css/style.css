@@ -1,0 +1,78 @@
+.header {
+  height:100vh;
+  background-image:url("../images/bann.jpg");
+  background-size: cover;
+ }
+
+ nav {
+  position: fixed;
+}
+
+H1,h3{font-family: fantasy;}
+
+h1,h2,h3 {
+        text-align: center;
+        }
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+ }
+
+.parrafo{
+  text-align: center;
+} 
+
+.diagonal-box {
+  background-image: linear-gradient(45deg,#D5D8DC , #17202A  );
+  transform: skewY(-7deg);
+  -webkit-transform: skewY(-7deg);
+  -moz-transform: skewY(-7deg);
+  -ms-transform: skewY(-7deg);
+  -o-transform: skewY(-7deg);
+} 
+
+.diagonal-box h2 {color: black;}
+
+.content {
+    max-width: 50em;
+    margin: 0 auto;
+    transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
+    -moz-transform: skewY(6deg);
+    -ms-transform: skewY(6deg);
+    -o-transform: skewY(6deg);
+}
+
+
+
+.icono {
+  font-size: 80px;
+}
+
+.icono:hover {
+  transform: scale(1.5) rotate(0deg);
+  transition-duration: 200ms;
+  opacity: 0.9;
+  transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1.5) rotate(0deg);
+  -moz-transform: scale(1.5) rotate(0deg);
+  -ms-transform: scale(1.5) rotate(0deg);
+  -o-transform: scale(1.5) rotate(0deg);
+}
+
+.iconos {
+  font-size: 20px;
+}
+
+a {
+  color:black;
+}
+
+a:hover{
+  color: whitesmoke;
+}
